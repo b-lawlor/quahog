@@ -34,7 +34,7 @@ export default defineConfig({
     },
 
     footer: {
-      message: 'Released under the MIT License.',
+      message: '',
       copyright: 'So it goes © 2024 Brendan Lawlor'
     },
 
