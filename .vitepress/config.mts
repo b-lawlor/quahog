@@ -40,7 +40,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/b-lawlor' },
+      { icon: 'github', link: 'https://github.com/b-lawlor/quahog' },
     ],
 
     search: {
@@ -53,6 +53,10 @@ export default defineConfig({
         dateStyle: 'full',
         timeStyle: 'medium'
       }
+    },
+
+    editLink: {
+      pattern: 'https://github.com/b-lawlor/quahog/edit/main/:path'
     }
   },
   
