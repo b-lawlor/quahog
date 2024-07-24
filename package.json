@@ -1,0 +1,19 @@
+{
+  "name": "quahog",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "dependencies": {
+    "markdown-it-mermaid": "^0.2.5",
+    "mermaid": "^10.9.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "vitepress": "^1.1.4"
+  }
+}
