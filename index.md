@@ -29,7 +29,7 @@ const randomBug = bugs.bugs[(Math.floor(Math.random() * bugs.bugs.length))]
 ## Recent posts
 <ul>
     <li v-for='(post, key) of sortedPosts' :key='key'>
-        <strong><a :href='post.url'>{{ post.frontmatter.title }}</a></strong><br/>
+        <strong><a :href="'/quahog'+post.url">{{ post.frontmatter.title }}</a></strong><br/>
         <span>{{ formatDate( post.frontmatter.date ) }}</span>
     </li>
 </ul>

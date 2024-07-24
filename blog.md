@@ -14,7 +14,7 @@ const randomPost = getRandom( posts )
 
 <ul>
     <li v-for='(post, key) of sortedPosts' :key='key'>
-        <strong><a :href='post.url'>{{ post.frontmatter.title }}</a></strong><br/>
+        <strong><a :href="'/quahog'+post.url">{{ post.frontmatter.title }}</a></strong><br/>
         <span>{{ formatDate( post.frontmatter.date ) }}</span>
     </li>
 </ul>
