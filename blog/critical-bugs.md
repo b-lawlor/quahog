@@ -21,7 +21,10 @@ I see Jonathan has attached a patch to fix an ajax call by changing the method f
 A month later I'm working on an enhancement in item search and I find another CSRF related bug in the batch operations buttons in item search. So I report it and patch it. 
 <Bug :id='36630'/>
 
-Three months later I see a blocker on the Koha dashboard that smells like it's CSRF related.
+Three months later I see a blocker on the Koha dashboard that smells like it's another CSRF related bug.
 <Bug :id='37377'/>
+
+Just last week another CSRF bug was reported and it's an interesting one.
+<Bug :id='37407'/>
 
 Patching critical bugs is the best!
