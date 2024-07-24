@@ -4,7 +4,7 @@ import markdownItMermaid from 'markdown-it-mermaid'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Quahog",
-  description: "A chrono-synclastic infundibulum for systems travellers",
+  description: "A chrono-synclastic infundibulum",
   lastUpdated: true,
   cleanUrls: true,
   base: '/quahog/',

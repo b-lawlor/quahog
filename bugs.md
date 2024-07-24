@@ -25,7 +25,7 @@ const coolBugs = data.bugs.filter(function (b) {
 
 </script>
 
-I might write about some bugs here. Below is a list of bugs based on from my activity on Bugzilla. This page will be updated whenever the site is rebuilt.
+I might write about some bugs here. Below is a list of bugs based on my activity on Bugzilla. This page will be updated whenever the site is rebuilt.
 
 ## Bugs I'm squashin' :hiking_boot: :bug:
 <BugList :bugs="assignedBugs"/>
