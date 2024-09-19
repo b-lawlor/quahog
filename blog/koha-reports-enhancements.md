@@ -19,7 +19,7 @@ An existing patch added the ability to optionally add an All option to report pa
 A subsequent patch added the option for providing a newline separated list as a report parameter. I started thinking that a newline separated list is essentially a manually created multiselect. If Koha already knows how to handle a list as a report parameter, all we should have to do is make multiselects submit as a single newline delimeted parameter. :dark_sunglasses:
 <Bug :id='27380'/>
 
-Standing on the shoulders of Koha giants, I created my first `Frankenhancement`:copyright:, smashing the concepts of these two patches together, sewing its internals up with magical regular expressions and zaping it to life with javascript that overrides the default form submission. It's Alive! :zap: "zombie"
+Standing on the shoulders of Koha giants, I created my first `Frankenhancement`:copyright:, smashing the concepts of these two patches together, sewing its internals up with magical regular expressions and zaping it to life with javascript that overrides the default form submission. It's Alive! :zap: :zombie:
 <Bug :id='35746'/>
 
 This code has been described as `works well, easy to read, excellent work!`, `feels like hacking` and `hard to maintain` but most importantly `easier than rewriting the whole module`.
