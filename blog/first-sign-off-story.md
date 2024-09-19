@@ -10,8 +10,8 @@ next:
   link: /blog/first-patch-story
 ---
 
-Seven months after migrating to Koha I find myself at the [Koha US](https://koha-us.org/events/conferences/2023-koha-us-annual-conference-portsmouth-nh/) conference in Portsmouth, NH. I have [Koha testing docker](https://gitlab.com/koha-community/koha-testing-docker) running on my laptop and mess around applying patches but I don't really know what I'm doing. I sit down next to Nick and Lucas and in between presentations I coerce them into helping me figure out what I'm missing.
+Seven months after migrating to Koha I attended the [Koha US](https://koha-us.org/events/conferences/2023-koha-us-annual-conference-portsmouth-nh/) conference in Portsmouth, NH. I had [Koha testing docker](https://gitlab.com/koha-community/koha-testing-docker) running on my laptop and messed around applying patches but I didn't really know what I was doing. I sat down next to Nick and Lucas and in between presentations I coerced them into helping me figure out what I'm missing with my ktd and bugzilla set up.
 
-By the end of the conference I sign off on a bug for the first time.
+By the end of the conference they helped me sign off on a patch for the first time.
 <Bug :id='34275'/>
 

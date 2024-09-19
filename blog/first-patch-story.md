@@ -10,15 +10,15 @@ next:
   link: /blog/critical-bugs
 ---
 
-It's been acouple months since the Koha-US conference in Portsmouth. I've signed off on a few patches and through repetition am starting to get the process.
+It's been a couple months since the Koha-US conference in Portsmouth. I've signed off on a few patches and through repetition am starting to get the process.
 
 I'm testing this bug by running the page's html though the [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input+with_options). 
 <Bug :id='35157'/>
 
-Which leads me to finding a different stray html tag and submitting my first patch.
+Running through the test plan leads me to finding a another stray html tag and writing my first patch. Even though this patch only changes a single character to fix a single html tag and its effect is invisible to users, it changes my whole perception of my relationship with Koha.
 <Bug :id='35365'/>
 
-Running koha-testing-docker and testing other bugs ferequently not only teaches you about Koha, but it can help you finds bugs too.
+I learn that running koha-testing-docker frequently and testing patches not only teaches you about how Koha works, but it can help you finds bugs too.
 
 :bug:
 :ocean:

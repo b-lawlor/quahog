@@ -2,8 +2,6 @@
 title: Guides 🗺️🧭
 ---
 
-:compass:
-
 ::: danger :warning: Danger
 <div class="marquee" >
   <div class="marquee_content">
