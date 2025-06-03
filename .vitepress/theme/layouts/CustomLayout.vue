@@ -12,6 +12,7 @@ const { Layout } = DefaultTheme
         </template>
 
         <template #layout-bottom>
+            <div id="wcb" class="carbonbadge wcb-d"></div>
         </template>
     </Layout>
 </template>
@@ -23,6 +24,10 @@ const { Layout } = DefaultTheme
 
 .Layout ul {
     list-style-type: none;
+}
+
+.carbonbadge {
+    margin: auto;
 }
 
 </style>
