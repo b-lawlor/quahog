@@ -35,7 +35,7 @@ export default defineConfig({
     },
 
     footer: {
-      message: '',
+      message: '<div id="wcb" class="carbonbadge wcb-d"></div>',
       copyright: 'So it goes © 2024 Brendan Lawlor'
     },
 
@@ -74,6 +74,12 @@ export default defineConfig({
   head: [
     ['link',
       {rel: 'stylesheet', href:'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css'}
+    ],
+    ['script',
+      {
+        async: 'true',
+        src: 'https://unpkg.com/website-carbon-badges@1.1.3/b.min.js'
+      }
     ]
   ]
 })
