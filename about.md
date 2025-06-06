@@ -27,7 +27,7 @@ It is a vortex into a singularity where "all different kinds of truths fit toget
 Vonnegut lived in [Barnstable Village](https://www.sturgislibrary.org/pdf/beenbarnstable.pdf) and served as a trustee of Sturgis Library, the [oldest library building](https://www.sturgislibrary.org/history-of-the-library/) in the United states. 
 
 ## Clips
-- [Koha Community GiftED Webniar 2024: Koha Tersting Docker](https://www.youtube.com/watch?v=ubFUKxKtxRA)
+- [Koha Community GiftED Webniar 2024: Koha Testing Docker](https://www.youtube.com/watch?v=ubFUKxKtxRA)
 - [NEIUG 2020 Dahsboard Confessional](https://vimeo.com/466377608/55460418a4#t=2h5m35s)
 
 ## Press
