@@ -9,9 +9,9 @@ This guide assumes no prior knowledge and aims to help new Koha testers and deve
 
 Don't forget to refer to the [official Koha Testing Docker README](https://gitlab.com/koha-community/koha-testing-docker/-/blob/main/README.md) too.
 
-Linux users refer to [Installing dependencies - Linux 🦾🤖](/installing-dependencies-linux.md)
+Linux users refer to [Installing dependencies - Linux 🦾🤖](/guides/koha-dev/installing-dependencies-linux)
 
-MacOS users refer to [Installing dependencies - MacOS 🦾🤖](/installing-dependencies-macos.md)
+MacOS users refer to [Installing dependencies - MacOS 🦾🤖](/guides/koha-dev/installing-dependencies-macos)
 :::
 
 [[toc]]
