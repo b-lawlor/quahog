@@ -8,6 +8,10 @@ next:
 This guide assumes no prior knowledge and aims to help new Koha testers and developers get started using Koha Testing Docker with Windows Subsytem for Linux (WSL2) and VSCode.
 
 Don't forget to refer to the [official Koha Testing Docker README](https://gitlab.com/koha-community/koha-testing-docker/-/blob/main/README.md) too.
+
+Linux users refer to [Installing dependencies - Linux 🦾🤖] (/installing-dependencies-linux.md)
+
+MacOS users refer to [Installing dependencies - MacOS 🦾🤖] (/installing-dependencies-macos.md)
 :::
 
 [[toc]]
@@ -156,7 +160,7 @@ ls
 ## Install Docker Desktop
 
 ::: info :rainbow: INFO
-[Docker's Install Guide](https://docs.docker.com/desktop/install/windows-install/)
+[Docker's Install Guide](https://code.visualstudio.com/docs/setup/windows)
 :::
 
 Make sure that Docker Desktop is integrated with WSL
