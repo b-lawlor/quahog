@@ -9,9 +9,9 @@ This guide assumes no prior knowledge and aims to help new Koha testers and deve
 
 Don't forget to refer to the [official Koha Testing Docker README](https://gitlab.com/koha-community/koha-testing-docker/-/blob/main/README.md) too.
 
-Windows users refer to [Installing dependencies 🦾🤖] (/installing-dependencies.md)
+Windows users refer to [Installing dependencies 🦾🤖](/installing-dependencies.md)
 
-MacOS users refer to [Installing dependencies - MacOS 🦾🤖] (/installing-dependencies-macos.md)
+MacOS users refer to [Installing dependencies - MacOS 🦾🤖](/installing-dependencies-macos.md)
 :::
 
 [[toc]]
@@ -20,9 +20,6 @@ MacOS users refer to [Installing dependencies - MacOS 🦾🤖] (/installing-dep
 - :computer: Terminal
 - :whale: Docker
 - :vs: VSCode
-
-## Install WSL2 Debian
-
 
 :::tip :wrench: TIP
 The terminal is an essential tool. Get used to entering commands and take note of the different parts that make up this command. `command --flags argument`

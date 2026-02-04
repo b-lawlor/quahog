@@ -1,5 +1,5 @@
 ---
-title: Installing dependencies - Linux 🦾🤖
+title: Installing dependencies - MacOS 🦾🤖
 next:
   link: ./getting-set-up
 ---
@@ -9,9 +9,9 @@ This guide assumes no prior knowledge and aims to help new Koha testers and deve
 
 Don't forget to refer to the [official Koha Testing Docker README](https://gitlab.com/koha-community/koha-testing-docker/-/blob/main/README.md) too.
 
-Windows users refer to [Installing dependencies 🦾🤖] (/installing-dependencies.md)
+Windows users refer to [Installing dependencies 🦾🤖](/installing-dependencies.md)
 
-Linux users refer to [Installing dependencies - Linux 🦾🤖] (/installing-dependencies-linux.md)
+Linux users refer to [Installing dependencies - Linux 🦾🤖](/installing-dependencies-linux.md)
 :::
 
 [[toc]]
@@ -20,9 +20,6 @@ Linux users refer to [Installing dependencies - Linux 🦾🤖] (/installing-dep
 - :computer: Terminal
 - :whale: Docker
 - :vs: VSCode
-
-## Install WSL2 Debian
-
 
 :::tip :wrench: TIP
 The terminal is an essential tool. Get used to entering commands and take note of the different parts that make up this command. `command --flags argument`
@@ -40,24 +37,25 @@ To get started we will use the termianl to run some commands. Enter the followin
 
 `$` indicates the begining of the command prompt. If you see commands in guides that include the `$` remember not to include that in your commands.
 
-### Now Let's Bash some commands
+### Now Let's ZSH some commands
 
-Update the systems package manager and install upgrades to installed software. Depending on which Linux version you're running, `apt` might not be the correct command. 
+Update the systems package manager and install upgrades to installed software. 
 
-```bash
+```zsh
 sudo apt update && sudo apt upgrade -y
 ```
 
 While you are doing this you might as well install `Git` too. You're gonna need it later.
-```bash
-sudo apt install git-all
+[macOS instructions for installing Git](https://git-scm.com/install/mac)
+```zsh
+brew install git
 ```
 
 
 ### Some basic commands
 
 Show the path of your present working directory
-```bash
+```zsh
 pwd
 ```
 ```output
@@ -65,28 +63,28 @@ pwd
 ```
 
 Make a directory
-```bash
+```zsh
 mkdir myProject
 ```
 
-```bash
+```zsh
 cd myProject
 ```
 
 You can also chain commands together if you like
-```bash
+```zsh
 mkdir myProject && cd myProject
 ```
 
 List files in the current directory
-```bash
+```zsh
 ls
 ```
 
-## Install Docker server
+## Install Docker Desktop
 
 ::: info :rainbow: INFO
-[Docker's Install Guide](https://docs.docker.com/engine/install/#server/)
+[Docker's Install Guide](https://docs.docker.com/compose/install/compose-desktop/)
 :::
 
 
@@ -95,7 +93,7 @@ Now when you launch the Terminal Docker will be available,
 ### Some basic docker commands
 
 Check Docker version
-```bash
+```zsh
 docker -v
 ```
 
@@ -104,7 +102,7 @@ Docker version 26.1.1, build 4cf5afa
 ```
 
 List Docker images
-```bash
+```zsh
 docker image ls
 ```
 
@@ -121,7 +119,7 @@ mariadb             10.5      c65b1e141932   3 months ago   394MB
 ```
 
 Clean up old docker images
-```bash
+```zsh
 docker system prune -a
 ```
 
@@ -131,7 +129,7 @@ This will remove all unused containers, networks, images and optionally, volumes
 ## Install VSCode
 
 ::: info :rainbow: INFO
-[VSCode's Install Guide](https://code.visualstudio.com/docs/setup/linux)
+[VSCode's Install Guide](https://code.visualstudio.com/docs/setup/mac)
 :::
 
 VSCode is a highly configureable text editor optimized for reading and writing code. It's pretty chill. :snowflake:
@@ -139,8 +137,8 @@ VSCode is a highly configureable text editor optimized for reading and writing c
 ::: tip :keyboard: TIP 
 <Badge type="tip">non-clicky way</Badge>
 Launch VSCode
-- Press `Super` key, type `term` and press `Enter`
-```bash  
+- Press `mac` key, type `term` and press `Enter`
+```zsh  
 cd $PROJECTS_DIR
 code .
 ```
