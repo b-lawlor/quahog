@@ -7,11 +7,11 @@
 <script>
  export default {
    mounted() {
-     import("mermaid/dist/mermaid").then(m => {
-       m.initialize({
+     import("mermaid").then(m => {
+       m.default.initialize({
          startOnLoad: true
        });
-       m.init();
+       m.default.run();
      });
    }
  };
