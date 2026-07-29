@@ -7,8 +7,6 @@ next:
   link: ./installing-dependencies
 ---
 
-<Mermaid hidden/>
-
 ## Get on Bugzilla
 
 Open an account on [Bugzilla](http://bugs.koha-community.org/) .

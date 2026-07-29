@@ -4,19 +4,6 @@
   </pre>
 </template>
 
-<script>
- export default {
-   mounted() {
-     import("mermaid").then(m => {
-       m.default.initialize({
-         startOnLoad: true
-       });
-       m.default.run();
-     });
-   }
- };
-</script>
-
 <style>
 </style>
 

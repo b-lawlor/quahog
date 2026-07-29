@@ -1,8 +1,20 @@
 <script setup lang="ts">
+import { onMounted, watch } from 'vue'
+import { useRoute } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import PageHeader from '../components/PageHeader.vue';
 // import TestComponent from '../components/TestComponent.vue';
 const { Layout } = DefaultTheme
+const route = useRoute()
+
+async function renderMermaid() {
+    const m = await import('mermaid')
+    m.default.initialize({ startOnLoad: false })
+    m.default.run()
+}
+
+onMounted(renderMermaid)
+watch(() => route.path, renderMermaid, { flush: 'post' })
 </script>
 
 <template>

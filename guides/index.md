@@ -39,8 +39,6 @@ TAKE THIS.
 </p>
 :::
 
-<Mermaid hidden/> <!--idk why but this needs to be done to get the diagrams to render-->
-
 # Learn git repo concepts
 
 <pre class="mermaid">
