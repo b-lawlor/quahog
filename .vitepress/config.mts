@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress'
-import markdownItMermaid from 'markdown-it-mermaid'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -62,8 +61,15 @@ export default defineConfig({
   
   markdown: {
     config: (md) => {
-      // use more markdown-it plugins!
-      md.use(markdownItMermaid.default)
+      // render ```mermaid fences as <div class="mermaid"> for Mermaid.vue to pick up
+      const fence = md.renderer.rules.fence!.bind(md.renderer.rules)
+      md.renderer.rules.fence = (tokens, idx, options, env, self) => {
+        const token = tokens[idx]
+        if (token.info.trim() === 'mermaid') {
+          return `<div class="mermaid">${token.content.trim()}</div>`
+        }
+        return fence(tokens, idx, options, env, self)
+      }
     },
     languageAlias: { 
       'output': 'bash',
