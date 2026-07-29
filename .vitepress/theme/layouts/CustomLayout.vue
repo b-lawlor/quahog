@@ -8,8 +8,9 @@ const { Layout } = DefaultTheme
 const route = useRoute()
 
 async function renderMermaid() {
-    const m = await import('mermaid')
-    m.default.initialize({ startOnLoad: false })
+    const [m, elk] = await Promise.all([import('mermaid'), import('@mermaid-js/layout-elk')])
+    m.default.registerLayoutLoaders(elk.default)
+    m.default.initialize({ startOnLoad: false, layout: 'elk' })
     m.default.run()
 }
 

@@ -11,6 +11,7 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
+    "@mermaid-js/layout-elk": "^0.2.2",
     "mermaid": "^11.16.0",
     "node-fetch": "^3.3.2"
   },
